@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KC Store - Football Jerseys</title>
+    <meta name="description" content="Shop premium football jerseys at KC Store. Best quality, great prices!">
+    <meta name="keywords" content="KC Store football jerseys, buy football jerseys, premium jerseys">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>KC Store</h1>
+        <p>Premium Football Jerseys</p>
+        <a href="https://wa.me/250794100155" class="btn shop-now">Shop Now</a>
+    </header>
+
+    <!-- Jerseys Section -->
+    <section class="jerseys">
+        <h2>Our Football Jerseys</h2>
+        <div class="filter-buttons">
+            <button id="show-new" class="btn filter-btn">New Jerseys</button>
+            <button id="show-others" class="btn filter-btn">Other Jerseys</button>
+        </div>
+        <div class="grid" id="jersey-grid">
+            <!-- Default Jerseys (Static) -->
+            <div class="jersey-item" data-created-at="1625097600000">
+                <img src="photos/4.jpeg" alt="Barcelona Third 2023">
+                <h3>Barcelona Third 2023</h3>
+                <p>20,000 RWF</p>
+                <a href="https://wa.me/250794100155" class="btn order-now">Order Now</a>
+            </div>
+            <div class="jersey-item" data-created-at="1625097600000">
+                <img src="photos/2.jpeg" alt="Real Madrid Away 2023">
+                <h3>Real Madrid Away 2023</h3>
+                <p>20,000 RWF</p>
+                <a href="https://www.instagram.com/kc__s.tore?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="btn order-now">Order Now</a>
+            </div>
+            <!-- Dynamically added jerseys will be appended here -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <img src="photos/KC_Store_Icon.png"KC Store Logo>
+        <p>Contact us on WhatsApp: +250794100155 or +250798600050 | Instagram: <a href="https://www.instagram.com/kc__s.tore?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">@kc__s.tore</a></p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

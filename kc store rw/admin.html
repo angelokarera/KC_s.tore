@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KC Store - Admin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="login" class="admin-container">
+        <img src="photos/KC_Store_Icon.png" alt="KC Store Logo" class="admin-logo">
+        <h2>Admin Login</h2>
+        <input type="password" id="password" placeholder="Enter Password">
+        <button id="login-btn">Login</button>
+    </div>
+
+    <div id="upload-section" class="admin-container" style="display: none;">
+        <img src="photos/KC_Store_Icon.png" alt="KC Store Logo" class="admin-logo">
+        <h2>Upload New Jersey</h2>
+        <form id="upload-form">
+            <input type="text" id="jersey-name" placeholder="Jersey Name" required>
+            <input type="number" id="jersey-price" placeholder="Price (e.g., 20000)" step="0.01" required>
+            <input type="text" id="jersey-image" placeholder="Image Path (e.g., photos/jersey.jpg)" required>
+            <input type="url" id="jersey-link" placeholder="Order Link (WhatsApp/Instagram)" required>
+            <button type="submit">Add Jersey</button>
+        </form>
+        <button id="logout-btn">Logout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
